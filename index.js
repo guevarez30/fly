@@ -12,7 +12,9 @@ app.use('/static/*', serveStatic({ root: './' }))
 app.route('/', api()) // Handle /api
 app.route('/', views())
 
+const port = process.env.PORT ?? 3000
+
 export default {
-  port: 3000,
+  port,
   fetch: app.fetch
 }
