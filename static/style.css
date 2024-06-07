@@ -1048,6 +1048,10 @@ body {
   border-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
 
+.focus\:border-primary:focus {
+  border-color: hsl(var(--primary));
+}
+
 .focus\:bg-white:focus {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
