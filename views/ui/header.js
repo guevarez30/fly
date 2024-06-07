@@ -1,9 +1,16 @@
 function Book () {
   return (
     <div className='w-64 flex items-center justify-center'>
-      <div className='flex font-bold py-2 px-4 text-lg rounded-xl items-center justify-center bg-primary text-primary-foreground hover:cursor-pointer hover:ring-offset-primary active:bg-primary-foreground active:text-primary'>
-        Book  Trip
-      </div>
+      <button
+        className='flex font-bold py-2 px-4 text-lg rounded-xl items-center justify-center bg-primary text-primary-foreground hover:cursor-pointer hover:ring-offset-primary active:bg-primary-foreground active:text-primary'
+        type='button'
+        hx-trigger='click'
+        hx-get='/booking-form'
+        hx-swap='innerHTML'
+        hx-target='#popup'
+      >
+        Book Trip
+      </button>
     </div>
   )
 }
@@ -47,7 +54,6 @@ export default function Header () {
         <a className='text-gray-500 text-lg font-bold' href='#media'>Media</a>
         <a className='text-gray-500 text-lg font-bold' href='#rates'>Rates</a>
         <a className='text-gray-500 text-lg font-bold' href='#skiff'>Skiff</a>
-        <a className='text-gray-500 text-lg font-bold' href='#contact'>Contact</a>
       </div>
       <Book />
     </header>

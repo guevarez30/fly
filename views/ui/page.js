@@ -1,8 +1,8 @@
-import MainImage from './image-main'
-import Captain from './captain'
 import Header from './header'
-import Rates from './rates'
-import Skiff from './skiff'
+import MainImage from './content/image-main'
+import Captain from './content/captain'
+import Rates from './content/rates'
+import Skiff from './content/skiff'
 
 export default function Page () {
   return (
@@ -16,9 +16,6 @@ export default function Page () {
         </a>
         <Rates />
         <Skiff />
-        <a className='h-[650px]' name='contact'>
-          <div id='contact'> contact </div>
-        </a>
       </main>
     </>
   )
