@@ -1,3 +1,7 @@
 {
-  "jsx": "react"
+    "compilerOptions": {
+        "jsx": "react",
+        "jsxFactory": "Html.createElement",
+        "jsxFragmentFactory": "Html.Fragment"
+    }
 }

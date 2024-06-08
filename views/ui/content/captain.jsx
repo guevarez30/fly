@@ -3,7 +3,7 @@ export default function Captain () {
     <a name='captain'>
       <div id='captain' className='flex pt-32 justify-evenly '>
         <div className='flex flex-col w-[25%]'>
-          <img className='w-full h-auto rounded-md' src='/static/images/captain.jpeg' alt='Captain' />
+          <img className='w-full h-auto rounded-md' src='/public/images/captain.jpeg' alt='Captain' />
           <div className='flex flex-col justify-center w-full items-center'>
             <div className='text-lg text-gray-500'> Captain </div>
             <div className='text-xl text-gray-500 font-bold'> Taylor Guevarez</div>

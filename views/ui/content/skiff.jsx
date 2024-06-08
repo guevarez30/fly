@@ -8,7 +8,7 @@ export default function Skiff () {
     <a name='skiff'>
       <div className='pt-16 flex flex-col w-full' id='skiff'>
 
-        <img className='w-full h-auto rounded-md' src='/static/images/boat-1.jpeg' alt='Captain' />
+        <img className='w-full h-auto rounded-md' src='/public/images/boat-1.jpeg' alt='Captain' />
 
         <div className='flex flex-col w-full items-center'>
           <div className='flex flex-col w-[50%] p-16'>
@@ -18,8 +18,8 @@ export default function Skiff () {
         </div>
 
         <div className='flex w-full'>
-          <img className='w-[50%] h-auto rounded-md' src='/static/images/boat-2.jpeg' alt='Captain' />
-          <img className='w-[50%] h-auto rounded-md' src='/static/images/boat-3.jpeg' alt='Captain' />
+          <img className='w-[50%] h-auto rounded-md' src='/public/images/boat-2.jpeg' alt='Captain' />
+          <img className='w-[50%] h-auto rounded-md' src='/public/images/boat-3.jpeg' alt='Captain' />
         </div>
       </div>
     </a>
