@@ -43,6 +43,5 @@ export default function Header () {
       </div>
       <Book />
     </header>
-
   )
 }
