@@ -6,7 +6,7 @@ import Page from "./views/ui/page"
 
 import {BookingForm} from "./views/ui/components/popup"
 
-const port = process.env.port ?? 3000
+const port = process.env.PORT ?? 3000
 
 try{
 
