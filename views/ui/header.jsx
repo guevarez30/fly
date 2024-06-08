@@ -2,7 +2,7 @@ function Book () {
   return (
     <div className='w-64 flex items-center justify-center'>
       <button
-        className='flex font-bold py-2 px-4 text-lg rounded-xl items-center justify-center bg-primary text-primary-foreground hover:cursor-pointer hover:ring-offset-primary active:bg-primary-foreground active:text-primary'
+		className="btn btn-primary"
         type='button'
         hx-trigger='click'
         hx-get='/booking-form'

@@ -12,6 +12,7 @@ try{
 
 new Elysia()
     .use(html())
+    .get('/ping', () => Response('pong'))
     .get('/public/style.css', () => Bun.file('public/style.css'))
     .get('/public/images/captain.jpeg', () => Bun.file('public/images/captain.jpeg'))
     .get('/public/images/boat-1.jpeg', () => Bun.file('public/images/boat-1.jpeg'))
