@@ -1592,6 +1592,11 @@ html {
   flex-grow: 1;
 }
 
+.scroll-my-32 {
+  scroll-margin-top: 8rem;
+  scroll-margin-bottom: 8rem;
+}
+
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -1749,6 +1754,10 @@ html {
   padding-top: 6rem;
 }
 
+.pt-8 {
+  padding-top: 2rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1772,6 +1781,11 @@ html {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -1979,6 +1993,21 @@ html {
 
   .lg\:w-\[25\%\] {
     width: 25%;
+  }
+
+  .lg\:scroll-my-16 {
+    scroll-margin-top: 4rem;
+    scroll-margin-bottom: 4rem;
+  }
+
+  .lg\:scroll-my-8 {
+    scroll-margin-top: 2rem;
+    scroll-margin-bottom: 2rem;
+  }
+
+  .lg\:scroll-my-6 {
+    scroll-margin-top: 1.5rem;
+    scroll-margin-bottom: 1.5rem;
   }
 
   .lg\:grid-cols-4 {

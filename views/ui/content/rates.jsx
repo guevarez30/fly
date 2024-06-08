@@ -32,14 +32,14 @@ const rates = [
 export default function Rates () {
   return (
     <a name='rates'>
-      <div id='rates' className='mx-2  pt-32 lg:pt-16  grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8'>
+      <div id='rates' className='mx-2  scroll-my-32 lg:scroll-my-8 pt-8 lg:pt-16 grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8'>
         {rates.map((rate, index) => (
           <div key={index} className='shadow-lg rounded-lg p-6'>
-            <h3 className='text-2xl  font-bold'>{rate.name}</h3>
-            <p className='text-lg '>Cost: ${rate.cost}</p>
-            <p className='text-lg '>Time: {rate.time} hours</p>
-            <p className='text-lg '>Season: {rate.season}</p>
-            <p className='pt-5 text-lg text-gray-500 leading-snug'>{rate.description}</p>
+            <h3 className='text-4xl lg:text-2xl  font-bold'>{rate.name}</h3>
+            <p className='text-4xl lg:text-lg '>Cost: ${rate.cost}</p>
+            <p className='text-4xl lg:text-lg '>Time: {rate.time} hours</p>
+            <p className='text-4xl lg:text-lg '>Season: {rate.season}</p>
+            <p className='pt-5 text-3xl lg:text-lg text-gray-500 leading-snug'>{rate.description}</p>
           </div>
         ))}
       </div>

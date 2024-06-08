@@ -1,7 +1,7 @@
 export default function Captain () {
   return (
     <a name='captain'>
-      <div id='captain' className='flex justify-evenly  pt-32 lg:pt-16 '>
+      <div id='captain' className='flex justify-evenly scroll-my-32 lg:scroll-my-8 pt-8 lg:pt-16'>
         <div className='flex flex-col w-[50%] lg:w-[25%]'>
           <img className='w-full h-auto rounded-md' src='/public/images/captain.jpeg' alt='Captain' />
           <div className='flex flex-col justify-center w-full items-center'>

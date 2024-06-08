@@ -6,14 +6,14 @@ const skiffDetails = {
 export default function Skiff () {
   return (
     <a name='skiff'>
-      <div className=' pt-32 lg:pt-16 flex flex-col w-full' id='skiff'>
+      <div className='  scroll-my-32 lg:scroll-my-8 pt-8 flex flex-col w-full' id='skiff'>
 
         <img className='w-full h-auto rounded-md' src='/public/images/boat-1.jpeg' alt='Captain' />
 
         <div className='flex flex-col w-full items-center'>
           <div className='flex flex-col mx-[10%] p-16'>
-            <h3 className='text-2xl text-gray-800 font-bold flex justify-center w-full'>{skiffDetails.name}</h3>
-            <p className='pt-5 text-lg leading-snug'>{skiffDetails.description}</p>
+            <h3 className='text-4xl lg:text-2xl text-gray-800 font-bold flex justify-center w-full'>{skiffDetails.name}</h3>
+            <p className='pt-5 text-4xl lg:text-lg leading-snug'>{skiffDetails.description}</p>
           </div>
         </div>
 
