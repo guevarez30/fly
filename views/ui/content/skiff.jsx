@@ -6,7 +6,7 @@ const skiffDetails = {
 export default function Skiff () {
   return (
     <a name='skiff'>
-      <div className='pt-16 flex flex-col w-full' id='skiff'>
+      <div className=' pt-32 lg:pt-16 flex flex-col w-full' id='skiff'>
 
         <img className='w-full h-auto rounded-md' src='/public/images/boat-1.jpeg' alt='Captain' />
 

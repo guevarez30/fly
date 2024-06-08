@@ -32,7 +32,7 @@ const rates = [
 export default function Rates () {
   return (
     <a name='rates'>
-      <div id='rates' className='mx-2 pt-32 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8'>
+      <div id='rates' className='mx-2  pt-32 lg:pt-16  grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8'>
         {rates.map((rate, index) => (
           <div key={index} className='shadow-lg rounded-lg p-6'>
             <h3 className='text-2xl  font-bold'>{rate.name}</h3>

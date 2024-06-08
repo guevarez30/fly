@@ -24,6 +24,9 @@ new Elysia()
     	 <Page/>
     	</Layout>
     ))
+    .get('/admin', () => {
+    	<div> Custom page with a login for only the admin </div>
+    })
     .get('/booking-form', () => (
     	<BookingForm/>
     ))
