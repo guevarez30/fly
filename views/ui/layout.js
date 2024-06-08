@@ -11,7 +11,6 @@ export default function Layout ({ children }) {
         <div id='popup' />
         {children}
       </body>
-
     </html>
   )
 }

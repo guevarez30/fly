@@ -15,32 +15,18 @@ function Book () {
   )
 }
 
-const socialLinks = [
-  {
-    platform: 'Instagram',
-    url: 'https://www.instagram.com/',
-    iconClass: 'fab fa-instagram'
-  },
-  {
-    platform: 'YouTube',
-    url: 'https://www.youtube.com/',
-    iconClass: 'fab fa-youtube'
-  },
-  {
-    platform: 'Facebook',
-    url: 'https://www.facebook.com/',
-    iconClass: 'fab fa-facebook'
-  }
-]
-
 function Socials () {
   return (
-    <div className='w-64 flex items-center justify-evenly'>
-      {socialLinks.map((social, index) => (
-        <a className='text-primary' key={index} href={social.url} target='_blank' rel='noreferrer'>
-          <i className={`${social.iconClass} text-primary text-2xl`} />
-        </a>
-      ))}
+	<div class='w-64 flex items-center justify-evenly'>
+	  <a class='text-primary' href='https://www.instagram.com/' target='_blank' rel='noreferrer'>
+	    <i class='fab fa-instagram text-primary text-2xl'></i>
+	  </a>
+	  <a class='text-primary' href='https://www.youtube.com/' target='_blank' rel='noreferrer'>
+	    <i class='fab fa-youtube text-primary text-2xl'></i>
+	  </a>
+	  <a class='text-primary' href='https://www.facebook.com/' target='_blank' rel='noreferrer'>
+	    <i class='fab fa-facebook text-primary text-2xl'></i>
+	  </a>
     </div>
   )
 }

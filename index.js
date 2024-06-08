@@ -13,6 +13,7 @@ app.route('/', api()) // Handle /api
 app.route('/', views())
 
 const port = process.env.PORT ?? 3000
+console.log("APP started on: ", port)
 
 export default {
   port,

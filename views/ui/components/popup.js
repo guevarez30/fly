@@ -1,7 +1,6 @@
 function Form () {
   return (
     <>
-      <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css' />
       <h2 className='text-2xl font-bold mb-4'>Booking Information</h2>
       <form action='#' method='POST'>
         <div className='mb-4'>
