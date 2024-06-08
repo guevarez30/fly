@@ -8,6 +8,8 @@ import {BookingForm} from "./views/ui/components/popup"
 
 const port = process.env.port ?? 3000
 
+try{
+
 new Elysia()
     .use(html())
     .get('/public/style.css', () => Bun.file('public/style.css'))
@@ -27,3 +29,8 @@ new Elysia()
 	.get('/noop', () => (<></>))
 	.post('/booking-form', () => (<></>))
     .listen(port)
+}catch(err){
+	console.error(err)
+}
+
+console.log("App started on port: ",port)
