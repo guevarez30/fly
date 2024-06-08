@@ -11,9 +11,9 @@ export default function Skiff () {
         <img className='w-full h-auto rounded-md' src='/public/images/boat-1.jpeg' alt='Captain' />
 
         <div className='flex flex-col w-full items-center'>
-          <div className='flex flex-col w-[50%] p-16'>
+          <div className='flex flex-col mx-[10%] p-16'>
             <h3 className='text-2xl text-gray-800 font-bold flex justify-center w-full'>{skiffDetails.name}</h3>
-            <p className='pt-5 text-lg text-gray-500 leading-snug'>{skiffDetails.description}</p>
+            <p className='pt-5 text-lg leading-snug'>{skiffDetails.description}</p>
           </div>
         </div>
 
