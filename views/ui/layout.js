@@ -9,7 +9,7 @@ export default function Layout ({ children }) {
       </head>
       <body id='page' className='bg-red'>
         <div id='popup' />
-        {children}
+      	<div> the basics </div>
       </body>
     </html>
   )
