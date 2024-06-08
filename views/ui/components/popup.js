@@ -18,19 +18,10 @@ function Form () {
         </div>
 
         <div className='mb-4'>
-          <label className='block text-gray-700 font-semibold mb-2'>Select a Date</label>
-          <input type='datetime-local' id='booking' name='date' className='form-input border-gray-300 bg-gray-100 w-full px-3 py-2 rounded-md focus:outline-none focus:border-primary focus:bg-white' />
-        </div>
-
-        <div className='mb-4'>
           <label className='block text-gray-700 font-semibold mb-2'>Description</label>
           <textarea id='description' name='description' rows='4' className='form-textarea border-gray-300 bg-gray-100 w-full px-3 py-2 rounded-md focus:outline-none focus:border-blue-500 focus:bg-white' />
         </div>
       </form>
-      <script src='https://cdn.jsdelivr.net/npm/flatpickr' />
-      <script>
-        flatpickr("input[type=datetime-local]", "{}");
-      </script>
     </>
   )
 }
