@@ -35,10 +35,9 @@ export function BookingForm () {
 		  <div className="card-body">
 		      <Form />
 		  </div>
-
         	<div className='flex gap-10 justify-center mb-2'>
         	  <button
-        	    className='btn'
+        	    className='btn h-24 lg:h16 w-48 lg:w-32 text-4xl lg:text-lg'
         	    type='button'
         	    hx-trigger='click'
         	    hx-get='/noop'
@@ -49,7 +48,7 @@ export function BookingForm () {
         	  </button>
 
         	  <button
-        	    className='btn btn-primary'
+        	    className='btn btn-primary h-24 lg:h16 w-48 lg:w-32 text-4xl lg:text-lg'
         	    type='button'
         	    hx-trigger='click'
         	    hx-get='/noop'
