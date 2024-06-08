@@ -5,8 +5,8 @@ import PageController from './controllers/page'
 
 export function views () {
   const app = new Hono()
-  app.get('/', PageController)
-  app.get('/noop', NoopController)
-  app.get('/booking-form', BookingFormController)
+  app.get('/', (c) => c.html(<div>hello</div>))
+  // app.get('/noop', NoopController)
+  // app.get('/booking-form', BookingFormController)
   return app
 }

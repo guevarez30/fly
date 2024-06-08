@@ -1,5 +1,3 @@
-import { renderToReadableStream } from 'react-dom/server'
-import Page from '../ui/page'
 import Layout from '../ui/layout'
 
 async function PageController () {
