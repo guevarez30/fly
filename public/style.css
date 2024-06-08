@@ -908,6 +908,12 @@ html {
   margin-inline-end: -0px;
 }
 
+.input-sm[type="number"]::-webkit-inner-spin-button {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-inline-end: -0px;
+}
+
 .input-lg[type="number"]::-webkit-inner-spin-button {
   margin-top: -1.5rem;
   margin-bottom: -1.5rem;
@@ -1521,6 +1527,14 @@ html {
   line-height: 2;
 }
 
+.input-sm {
+  height: 2rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 2rem;
+}
+
 .card-compact .card-body {
   padding: 1rem;
   font-size: 0.875rem;
@@ -1705,6 +1719,11 @@ html {
   scroll-margin-bottom: 8rem;
 }
 
+.scroll-my-4 {
+  scroll-margin-top: 1rem;
+  scroll-margin-bottom: 1rem;
+}
+
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -1872,6 +1891,10 @@ html {
 
 .pr-2 {
   padding-right: 0.5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .text-2xl {
@@ -2162,6 +2185,12 @@ html {
 }
 
 @media (min-width: 768px) {
+  .md\:input-md[type="number"]::-webkit-inner-spin-button {
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    margin-inline-end: -1rem;
+  }
+
   .md\:btn-md {
     height: 3rem;
     min-height: 3rem;
@@ -2181,6 +2210,15 @@ html {
     width: 3rem;
     border-radius: 9999px;
     padding: 0px;
+  }
+
+  .md\:input-md {
+    height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    line-height: 2;
   }
 }
 
@@ -2213,6 +2251,12 @@ html {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-inline-end: -0px;
+  }
+
+  .lg\:input-lg[type="number"]::-webkit-inner-spin-button {
+    margin-top: -1.5rem;
+    margin-bottom: -1.5rem;
+    margin-inline-end: -1.5rem;
   }
 
   .lg\:input input {
@@ -2333,6 +2377,15 @@ html {
     padding: 0px;
   }
 
+  .lg\:input-lg {
+    height: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    line-height: 2;
+  }
+
   .lg\:input-sm {
     height: 2rem;
     padding-left: 0.75rem;
@@ -2429,6 +2482,25 @@ html {
   --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:h-8 {
+    height: 2rem;
+  }
+
+  .sm\:gap-4 {
+    gap: 1rem;
+  }
+
+  .sm\:pt-8 {
+    padding-top: 2rem;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:h-24 {
     height: 6rem;
@@ -2438,12 +2510,39 @@ html {
     height: 4rem;
   }
 
+  .md\:h-12 {
+    height: 3rem;
+  }
+
+  .md\:scroll-my-8 {
+    scroll-margin-top: 2rem;
+    scroll-margin-bottom: 2rem;
+  }
+
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:gap-8 {
     gap: 2rem;
+  }
+
+  .md\:gap-6 {
+    gap: 1.5rem;
+  }
+
+  .md\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
@@ -2504,6 +2603,11 @@ html {
     scroll-margin-bottom: 1.5rem;
   }
 
+  .lg\:scroll-my-12 {
+    scroll-margin-top: 3rem;
+    scroll-margin-bottom: 3rem;
+  }
+
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -2536,6 +2640,16 @@ html {
 
   .lg\:text-lg {
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 
